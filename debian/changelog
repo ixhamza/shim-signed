@@ -1,0 +1,5 @@
+shim-signed (1.28) unstable; urgency=medium
+
+  * Initial Debian upload, based on Ubuntu package.
+
+ -- Steve Langasek <vorlon@debian.org>  Fri, 14 Apr 2017 21:44:06 +0000
