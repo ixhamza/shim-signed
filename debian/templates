@@ -1,6 +1,6 @@
 Template: shim/title/secureboot
 Type: text
-_Description: Configuring Secure Boot
+_Description: Configuring UEFI Secure Boot
 
 Template: shim/error/bad_secureboot_key
 Type: error
@@ -26,7 +26,7 @@ _Description: Enable UEFI Secure Boot?
 
 Template: shim/secureboot_explanation
 Type: note
-_Description: Your system has UEFI Secure Boot enabled.
+_Description: Your system has UEFI Secure Boot enabled
  UEFI Secure Boot is not compatible with the use of third-party drivers.
  .
  The system will assist you in toggling UEFI Secure Boot. To ensure that this
@@ -34,21 +34,27 @@ _Description: Your system has UEFI Secure Boot enabled.
  you must choose a password now and then use the same password after reboot
  to confirm the change.
  .
- If you choose to proceed but do not confirm the password upon reboot, Ubuntu
- will still be able to boot on your system but the Secure Boot state will not
- be changed.
+ If you choose to proceed but do not confirm the password upon reboot, the
+ Secure Boot configuration will not be changed, and the machine will continue
+ booting as before.
  .
  If Secure Boot remains enabled on your system, your system may still boot but
  any hardware that requires third-party drivers to work correctly may not be
  usable.
 
 Template: shim/secureboot_key
-Type: string
-_Description: Enter a password for Secure Boot. It will be asked again after a reboot.
+Type: password
+_Description: UEFI Secure Boot password:
+ Please enter a password for configuring UEFI Secure Boot.
+ .
+ This password will be used after a reboot to confirm authorization for a
+ change to Secure Boot state.
 
 Template: shim/secureboot_key_again
-Type: string
-_Description: Enter the same password again to verify you have typed it correctly.
+Type: password
+_Description: Re-enter password to verify:
+ Please enter the same password again to verify that you have typed it
+ correctly.
 
 Template: shim/error/secureboot_key_mismatch
 Type: error

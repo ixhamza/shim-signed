@@ -7,6 +7,28 @@ Files: *
 Copyright: 2012 Red Hat, Inc
 	2009-2012 Intel Corporation
 License: BSD-2-Clause
+
+Files: debian/po/cs.po
+Copyright: 2018 Michal Simunek <michal.simunek@gmail.com>
+License: BSD-2-Clause
+
+Files: debian/po/de.po
+Copyright: 2017, 2018 Markus Hiereth <markus.hiereth@freenet.de>
+License: BSD-2-Clause
+
+Files: debian/po/fr.po
+Copyright: 2017, 2018 Alban Vidal <alban.vidal@zordhak.fr>
+License: BSD-2-Clause
+
+Files: debian/po/nl.po
+Copyright: 2017, 2018 Frans Spiesschaert <Frans.Spiesschaert@yucom.be>
+License: BSD-2-Clause
+
+Files: debian/po/pt.po
+Copyright: 2017, 2018 Rui Branco <ruipb@debianpt.org>
+License: BSD-2-Clause
+
+License: BSD-2-Clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:

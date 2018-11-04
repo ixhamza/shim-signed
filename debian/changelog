@@ -1,3 +1,18 @@
+shim-signed (1.28+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix debconf templates, Closes: #910986, #860720.
+  * Update German translation, thanks Markus Hiereth,
+    Closes: #879009, #913463.
+  * Update Dutch translation, thanks Frans Spiesschaert,
+    Closes: #862209, #914531.
+  * Update French translation, thanks Alban Vidal, Closes: #864869, #913563.
+  * Update Portuguese translation, thanks Rui Branco,
+    Closes: #870665, #912886.
+  * Added Czech translation, thanks Michal Simunek, Closes: #913294.
+
+ -- Helge Kreutzmann <debian@helgefjell.de>  Sun, 04 Nov 2018 08:09:26 +0100
+
 shim-signed (1.28) unstable; urgency=medium
 
   * Initial Debian upload, based on Ubuntu package.
