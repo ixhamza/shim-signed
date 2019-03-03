@@ -1,3 +1,16 @@
+shim-signed (1.28+nmu2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Copy the helper binaries from the shim binary so that we no longer
+    need to depend on it. See #922179 for more details. Add a Replaces:
+    shim and to allow us to over-write binaries there.
+  * Explicitly uploading in a chroot with older binaries installed for
+    shim and sbsigntool, and update Build-Depends to point to those
+    speficic versions. This package will *not* function with other
+    versions installed.
+
+ -- Steve McIntyre <93sam@debian.org>  Sun, 03 Mar 2019 22:33:41 +0000
+
 shim-signed (1.28+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.

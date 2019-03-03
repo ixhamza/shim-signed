@@ -9,6 +9,8 @@ check:
 	cp /usr/lib/shim/shimx64.efi build/shimx64.efi.signed
 	sbattach --attach build/detached-sig build/shimx64.efi.signed
 	cmp shimx64.efi.signed build/shimx64.efi.signed
+	cp /usr/lib/shim/fbx64.efi.signed build
+	cp /usr/lib/shim/mmx64.efi.signed build
 
 clean:
 	rm -rf build

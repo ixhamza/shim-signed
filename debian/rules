@@ -8,6 +8,11 @@ SHIM_VERSION := $(shell dpkg-query -f '$${Version}\n' -W shim)
 
 docdir := debian/shim-signed/usr/share/doc/shim-signed
 
+override_dh_install:
+	dh_install
+	cp /usr/lib/shim/fbx64.efi.signed debian/shim-signed/usr/lib/shim
+	cp /usr/lib/shim/mmx64.efi.signed debian/shim-signed/usr/lib/shim
+
 override_dh_installchangelogs:
 	dh_installchangelogs
 	# Quieten lintian, which otherwise gets confused by our odd version
