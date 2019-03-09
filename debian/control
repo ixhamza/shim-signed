@@ -15,6 +15,7 @@ Package: shim-signed
 Architecture: amd64
 Depends: ${misc:Depends}, grub-efi-amd64-bin, grub2-common (>= 2.02~beta2-36ubuntu12), mokutil
 Replaces: shim (= ${shim:Version})
+Breaks: shim (<= ${shim:Version})
 Recommends: secureboot-db
 Built-Using: shim (= ${shim:Version})
 Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)
