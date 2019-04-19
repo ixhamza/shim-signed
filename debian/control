@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9),
 # signature on the right version of shim. Version -6 saw arm64 toolchain
 # changes that changed the binary. Ugh. :-(
  shim-unsigned (= 15+1533136590.3beb971-5),
- sbsigntool,
+ sbsigntool (>= 0.9.2-2),
  po-debconf
 Standards-Version: 3.9.4
 

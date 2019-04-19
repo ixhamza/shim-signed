@@ -3,6 +3,8 @@ shim-signed (1.29) UNRELEASED; urgency=medium
   * New signed binaries available from MS for amd64, arm64 and i386
   * Change maintainer to be the EFI team
   * Update the build-depends
+    + Specifically depend on sbsigntool (>= 0.9.2-2) to fix a bug in the
+      PE/COFF checksum that otherwise breaks the build
   * Tweak the binary package setup a lot
     + We're now building for 3 arches
     + Depend on the right grub-efi-$arch-bin package for each arch
