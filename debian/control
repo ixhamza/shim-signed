@@ -1,7 +1,8 @@
 Source: shim-signed
 Section: utils
 Priority: optional
-Maintainer: Steve Langasek <vorlon@debian.org>
+Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>, Steve Langasek <vorlon@debian.org>
 Build-Depends: debhelper (>= 9),
 # Need shim version 0.9+1474479173.6c180c6-1 so we can check the
 # signature on the right version of shim
