@@ -3,14 +3,12 @@ all:
 check:
 	mkdir -p build
 	# Verifying that the image is signed with the correct key.
-	sbverify --cert MicCorUEFCA2011_2011-06-27.crt shimx64.efi.signed
+	sbverify --cert MicCorUEFCA2011_2011-06-27.crt shim$(EFI_ARCH).efi.signed
 	# Verifying that we have the correct binary.
-	sbattach --detach build/detached-sig shimx64.efi.signed 
-	cp /usr/lib/shim/shimx64.efi build/shimx64.efi.signed
-	sbattach --attach build/detached-sig build/shimx64.efi.signed
-	cmp shimx64.efi.signed build/shimx64.efi.signed
-	cp /usr/lib/shim/fbx64.efi.signed build
-	cp /usr/lib/shim/mmx64.efi.signed build
+	sbattach --detach build/detached-sig shim$(EFI_ARCH).efi.signed 
+	cp /usr/lib/shim/shim$(EFI_ARCH).efi build/shim$(EFI_ARCH).efi.signed
+	sbattach --attach build/detached-sig build/shim$(EFI_ARCH).efi.signed
+	cmp shim$(EFI_ARCH).efi.signed build/shim$(EFI_ARCH).efi.signed
 
 clean:
 	rm -rf build

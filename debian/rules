@@ -3,13 +3,22 @@
 VERSION := $(shell LC_ALL=C dpkg-parsechangelog | grep ^Version: | cut -d ' ' -f 2)
 SHIM_VERSION := $(shell dpkg-query -f '$${Version}\n' -W shim)
 
+include /usr/share/dpkg/architecture.mk
+
+ifeq ($(DEB_HOST_ARCH),amd64)
+export EFI_ARCH := x64
+endif
+ifeq ($(DEB_HOST_ARCH),arm64)
+export EFI_ARCH := aa64
+endif
+ifeq ($(DEB_HOST_ARCH),i386)
+export EFI_ARCH := ia32
+endif
+
 %:
 	dh $@
 
 docdir := debian/shim-signed/usr/share/doc/shim-signed
-
-override_dh_install:
-	dh_install
 
 override_dh_installchangelogs:
 	dh_installchangelogs
