@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
 Uploaders: Steve McIntyre <93sam@debian.org>, Steve Langasek <vorlon@debian.org>
 Build-Depends: debhelper (>= 9),
-# Need shim version 0.9+1474479173.6c180c6-1 so we can check the
-# signature on the right version of shim
- shim (= 0.9+1474479173.6c180c6-1),
-# sbsigntool version 0.6-3.2 (newer versions do different things with
-# padding and the signatures don't match correctly)
- sbsigntool (= 0.6-3.2), po-debconf
+# Need shim-unsigned version 15+1533136590.3beb971-5 so we can check the
+# signature on the right version of shim. Version -6 saw arm64 toolchain
+# changes that changed the binary. Ugh. :-(
+ shim-unsigned (= 15+1533136590.3beb971-5),
+ sbsigntool,
+ po-debconf
 Standards-Version: 3.9.4
 
 Package: shim-signed
