@@ -1,4 +1,4 @@
-shim-signed (1.30) UNRELEASED; urgency=medium
+shim-signed (1.30) unstable; urgency=medium
 
   * Force the built-using version to be 15+1533136590.3beb971-6. That
     *does* match the source we've used, we're only using -5 due to
