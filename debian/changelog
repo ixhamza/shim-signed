@@ -21,7 +21,7 @@ shim-signed (1.29) unstable; urgency=medium
       package.
   * Update Standards-Version to 4.3.0 (no changes needed)
 
- -- Steve McIntyre <93sam@debian.org>  Mon, 22 Apr 2019 17:23:50 +0100
+ -- Steve McIntyre <93sam@debian.org>  Mon, 22 Apr 2019 22:57:55 +0100
 
 shim-signed (1.28+nmu3) unstable; urgency=medium
 
