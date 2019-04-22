@@ -15,6 +15,10 @@ shim-signed (1.29) unstable; urgency=medium
   * Stop copying helper binaries into our package now
     + We just depend on shim-helpers-ARCH-signed now
   * Tweak build, don't assume amd64
+  * Add lintian overrides for things we can't really change:
+    + We're including pre-built binaries, as that's where our signatures
+      are coming from. We have the matching source in the shim source
+      package.
 
  -- Steve McIntyre <93sam@debian.org>  Mon, 22 Apr 2019 17:23:50 +0100
 
