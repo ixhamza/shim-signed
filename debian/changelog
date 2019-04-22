@@ -1,4 +1,4 @@
-shim-signed (1.29) UNRELEASED; urgency=medium
+shim-signed (1.29) unstable; urgency=medium
 
   * New signed binaries available from MS for amd64, arm64 and i386
   * Change maintainer to be the EFI team
@@ -16,7 +16,7 @@ shim-signed (1.29) UNRELEASED; urgency=medium
     + We just depend on shim-helpers-ARCH-signed now
   * Tweak build, don't assume amd64
 
- -- Steve McIntyre <93sam@debian.org>  Fri, 19 Apr 2019 16:29:30 +0200
+ -- Steve McIntyre <93sam@debian.org>  Mon, 22 Apr 2019 17:23:50 +0100
 
 shim-signed (1.28+nmu3) unstable; urgency=medium
 
