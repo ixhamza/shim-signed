@@ -1,3 +1,11 @@
+shim-signed (1.30) UNRELEASED; urgency=medium
+
+  * Force the built-using version to be 15+1533136590.3beb971-6. That
+    *does* match the source we've used, we're only using -5 due to
+    toolchain changes elsewhere. Ick :-(
+
+ -- Steve McIntyre <93sam@debian.org>  Tue, 23 Apr 2019 00:01:10 +0100
+
 shim-signed (1.29) unstable; urgency=medium
 
   * New signed binaries available from MS for amd64, arm64 and i386
