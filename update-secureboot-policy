@@ -142,8 +142,9 @@ elif echo "$args" | grep -qc -- '--help'; then
 	exit 0
 fi
 
-if [ `find /var/lib/dkms -type d -print | wc -l ` -gt 1 ]; then
-	setup_mok_validation $enable_secureboot
+if [ -d /var/lib/dkms ] &&
+       [ `find /var/lib/dkms -type d -print | wc -l ` -gt 1 ]; then
+    setup_mok_validation $enable_secureboot
 else
 	echo "No DKMS packages installed: not changing Secure Boot validation state."
 fi
