@@ -6,8 +6,9 @@ shim-signed (1.31) UNRELEASED; urgency=medium
     apart from the actual signed shim binaries so that we can
     sensibly support co-installability using Multi-Arch.
     Closes: #928486
-  * Add more translations:
+  * Add/update translations:
     + Italian (Closes: #915993, thanks to Beatrice Torracca)
+    + Swedish (Closes: #921410, thanks to Matrin Bagge)
 
  -- Steve McIntyre <93sam@debian.org>  Sat, 25 May 2019 02:25:24 +0100
 
