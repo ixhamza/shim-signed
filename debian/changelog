@@ -2,6 +2,10 @@ shim-signed (1.31) UNRELEASED; urgency=medium
 
   * update-secureboot-policy: fix error if /var/lib/dkms does not
     exist. Closes: #923718
+  * Separate the helper scripts into a new shim-signed-common package,
+    apart from the actual signed shim binaries so that we can
+    sensibly support co-installability using Multi-Arch.
+    Closes: #928486
 
  -- Steve McIntyre <93sam@debian.org>  Sat, 25 May 2019 02:25:24 +0100
 
