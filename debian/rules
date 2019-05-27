@@ -22,9 +22,6 @@ docdir := debian/shim-signed-common/usr/share/doc/shim-signed-common
 
 override_dh_installchangelogs:
 	dh_installchangelogs -p shim-signed-common
-	# Quieten lintian, which otherwise gets confused by our odd version
-	# number.
-	ln $(docdir)/changelog $(docdir)/changelog.Debian
 
 override_dh_installdocs:
 	dh_installdocs -p shim-signed-common
