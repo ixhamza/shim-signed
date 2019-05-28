@@ -43,6 +43,8 @@ Package: shim-signed-common
 Multi-Arch: foreign
 Architecture: all
 Depends: ${misc:Depends}, mokutil
+Replaces: shim-signed (<< 1.32+15+1533136590.3beb971-5)
+Breaks: shim-signed (<< 1.32+15+1533136590.3beb971-5)
 Description: Secure Boot chain-loading bootloader (common helper scripts)
  This package provides a minimalist boot loader which allows verifying
  signatures of other UEFI binaries against either the Secure Boot DB/DBX or
