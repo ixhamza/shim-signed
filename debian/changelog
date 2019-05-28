@@ -1,4 +1,4 @@
-shim-signed (1.32) UNRELEASED; urgency=medium
+shim-signed (1.32) unstable; urgency=medium
 
   * Add Breaks/Replaces to shim-signed-common for
     update-secureboot-policy etc. Closes: #929673
