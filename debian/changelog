@@ -5,6 +5,7 @@ shim-signed (1.33) UNRELEASED; urgency=medium
   * Update Build-Depends and Depends to match. Closes: #928107
   * Drop the hard-coded version in Built-Using; pick up the version of
     shim we're using properly.
+  * Display the sha256sums of the binaries as we check them
 
  -- Steve McIntyre <93sam@debian.org>  Sun, 09 Jun 2019 12:10:28 +0100
 
