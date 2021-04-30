@@ -10,6 +10,7 @@ shim-signed (1.34) UNRELEASED; urgency=medium
   * Update build-deps and Standards-Version
   * Tweak Makefile setup - do our verification testing chained from
     the "all" target, not "clean". Closes: #936002
+  * Don't include apport stuff in the Debian build, it's not useful.
 
  -- Steve McIntyre <93sam@debian.org>  Thu, 29 Apr 2021 22:04:33 +0100
 
