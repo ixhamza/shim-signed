@@ -21,13 +21,6 @@ endif
 
 docdir := debian/shim-signed-common/usr/share/doc/shim-signed-common
 
-override_dh_installchangelogs:
-	dh_installchangelogs -p shim-signed-common
-
-override_dh_installdocs:
-	dh_installdocs -p shim-signed-common
-	dh_installdocs --remaining-packages --link-doc=shim-signed-common
-
 override_dh_installdebconf:
 	dh_installdebconf -p shim-signed-common
 
