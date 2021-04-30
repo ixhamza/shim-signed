@@ -37,7 +37,7 @@ ifeq ($(DEB_HOST_ARCH),arm64)
 	# signed" warning at build time
 	dh_gencontrol -- -v$(VERSION)+$(SHIM_VERSION) \
 		-Vshim:Version=$(SHIM_VERSION) \
-		-p shim-signed \
+		-pshim-signed \
 		-DDescription="$$(cat debian/arm64.description)"
 	dh_gencontrol -- -v$(VERSION)+$(SHIM_VERSION) \
 		-Vshim:Version=$(SHIM_VERSION) \
