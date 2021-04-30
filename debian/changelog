@@ -12,6 +12,8 @@ shim-signed (1.34) UNRELEASED; urgency=medium
     the "all" target, not "clean". Closes: #936002
   * Don't include apport stuff in the Debian build, it's not useful.
   * Tweak dh_install* usage for docs.
+  * Add Spanish translation for debconf templates, thanks to
+    Camaleón. Closes: #987339
 
  -- Steve McIntyre <93sam@debian.org>  Thu, 29 Apr 2021 22:04:33 +0100
 
