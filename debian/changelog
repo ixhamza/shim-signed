@@ -3,8 +3,7 @@ shim-signed (1.34) UNRELEASED; urgency=medium
   * Build against new signed binaries corresponding to 15.4-2
     Closes: #971129, #987991
   * ***WARNING***: arm64 shim is no longer signed, due to major
-    toolchain problems. See
-    https://wiki.debian.org/SecureBoot#arm64_problems for more
+    toolchain problems. See NEWS.Debian for more
     information. Separated out the binary package for arm64 to allow
     for a different description, and tweaked the Makefile too.
   * Update build-deps and Standards-Version
