@@ -5,6 +5,7 @@ shim-signed (1.35) unstable; urgency=medium
     try to call it. Closes: #988047, #988056
   * If we're not running on an EFI system then exit cleanly in
     postinst and postrm. We have nothing to do here. Closes: #988059
+  * Fix the old doc links for shim-signed. Closes: #988057
 
  -- Steve McIntyre <93sam@debian.org>  Tue, 04 May 2021 09:37:09 +0100
 
