@@ -1,3 +1,10 @@
+shim-signed (1.36) unstable; urgency=medium
+
+  * Add defensive code around calls to db_get. Don't fail if they
+    return errors. Closes: #988114
+
+ -- Steve McIntyre <93sam@debian.org>  Thu, 06 May 2021 00:50:02 +0100
+
 shim-signed (1.35) unstable; urgency=medium
 
   * Add explicit dependency from shim-signed to shim-signed-common.
