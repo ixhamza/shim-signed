@@ -1,3 +1,11 @@
+shim-signed (1.38) unstable; urgency=medium
+
+  * Tweak how we call grub-install; don't abort on error. Not ideal
+    behaviour either, but don't break upgrades. Copy the behaviour
+    from the grub packages here. Closes: #990984
+
+ -- Steve McIntyre <93sam@debian.org>  Mon, 12 Jul 2021 12:46:52 +0100
+
 shim-signed (1.37) unstable; urgency=medium
 
   * Build against new signed binaries corresponding to 15.4-6
