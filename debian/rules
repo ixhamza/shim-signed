@@ -32,17 +32,5 @@ endif
 	dh_installdeb
 
 override_dh_gencontrol:
-ifeq ($(DEB_HOST_ARCH),arm64)
-	# On arm64, substitute our package description with "not
-	# signed" warning at build time
-	dh_gencontrol -pshim-signed -- \
-		-v$(VERSION)+$(SHIM_VERSION) \
-		-Vshim:Version=$(SHIM_VERSION) \
-		-DDescription="$$(cat debian/arm64.description)"
-	dh_gencontrol --remaining-packages -- \
-		-v$(VERSION)+$(SHIM_VERSION) \
-		-Vshim:Version=$(SHIM_VERSION)
-else
 	dh_gencontrol -- -v$(VERSION)+$(SHIM_VERSION) \
 		-Vshim:Version=$(SHIM_VERSION)
-endif
