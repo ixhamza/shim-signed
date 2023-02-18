@@ -10,6 +10,7 @@ shim-signed (1.39) UNRELEASED; urgency=medium
       new shim binaries.
   * Update build-dep on shim-unsigned to use 15.7-1
   * Block Debian grub binaries with sbat < 4 (see #1024617)
+    + Update Depends on grub2-common to match.
 
  -- Steve McIntyre <93sam@debian.org>  Fri, 17 Feb 2023 13:21:24 +0000
 
