@@ -1,13 +1,16 @@
-shim-signed (1.39) UNRELEASED; urgency=medium
+shim-signed (1.39) unstable; urgency=medium
 
   * Build against new signed binaries corresponding to 15.7-1
+    + This syncs up build-deps again. Closes: #1016280
     + We now have arm64 signed shims again \o/
       Undo the hacky unsigned arm64 build
-      Closes: #1008942, #992073
+      Closes: #1008942, #992073, #991478
     Pulls multiple other bugfixes in for the signed version:
     + Make sbat_var.S parse right with buggy gcc/binutils
     + Enable NX support at build time, as required by policy for signing
       new shim binaries.
+    + Fixes argument handling bug with some firmware implementations.
+      Closes: #995940
   * Update build-dep on shim-unsigned to use 15.7-1
   * Block Debian grub binaries with sbat < 4 (see #1024617)
     + Update Depends on grub2-common to match.
