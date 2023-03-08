@@ -12,6 +12,8 @@ shim-signed (1.39) UNRELEASED; urgency=medium
   * Block Debian grub binaries with sbat < 4 (see #1024617)
     + Update Depends on grub2-common to match.
   * postinst/postrm: make config_item() more robust
+  * Add pt_BR translation, thanks to Paulo Henrique de Lima
+    Santana. Closes: #1026415
 
  -- Steve McIntyre <93sam@debian.org>  Thu, 23 Feb 2023 22:27:32 +0000
 

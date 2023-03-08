@@ -1,0 +1,169 @@
+# Debconf translations for shim-signed.
+# Copyright (C) 2022 THE shim-signed'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the shim-signed package.
+# Paulo Henrique de Lima Santana (phls) <phls@debian.org>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: shim-signed_1.38\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-29 21:18+0000\n"
+"PO-Revision-Date: 2022-12-19 16:30-0300\n"
+"Last-Translator: Paulo Henrique de Lima Santana (phls) <phls@debian.org>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#. Type: text
+#. Description
+#: ../shim-signed-common.templates:1001
+msgid "Configuring UEFI Secure Boot"
+msgstr "Configuração do UEFI Secure Boot"
+
+#. Type: error
+#. Description
+#: ../shim-signed-common.templates:2001
+msgid "Invalid password"
+msgstr "Senha inválida"
+
+#. Type: error
+#. Description
+#: ../shim-signed-common.templates:2001
+msgid ""
+"The Secure Boot key you've entered is not valid. The password used must be "
+"between 8 and 16 characters."
+msgstr ""
+"A chave do Secure Boot que você digitou não é válida. A senha utilizada deve "
+"ter entre 8 e 16 caracteres."
+
+#. Type: boolean
+#. Description
+#: ../shim-signed-common.templates:3001
+msgid "Disable UEFI Secure Boot?"
+msgstr "Desabilitar o UEFI Secure Boot?"
+
+#. Type: boolean
+#. Description
+#. Type: note
+#. Description
+#: ../shim-signed-common.templates:3001 ../shim-signed-common.templates:5001
+msgid ""
+"If Secure Boot remains enabled on your system, your system may still boot "
+"but any hardware that requires third-party drivers to work correctly may not "
+"be usable."
+msgstr ""
+"Se o Secure Boot permanecer ativado em seu sistema, ele ainda poderá "
+"inicializar, mas qualquer hardware que exija drivers de terceiros para "
+"funcionar corretamente pode não ser utilizável."
+
+#. Type: boolean
+#. Description
+#: ../shim-signed-common.templates:4001
+msgid "Enable UEFI Secure Boot?"
+msgstr "Habilitar o UEFI Secure Boot?"
+
+#. Type: boolean
+#. Description
+#: ../shim-signed-common.templates:4001
+msgid ""
+"If Secure Boot is enabled on your system, your system may still boot but any "
+"hardware that requires third-party drivers to work correctly may not be "
+"usable."
+msgstr ""
+"Se o Secure Boot estiver ativado em seu sistema, ele ainda poderá "
+"inicializar, mas qualquer hardware que exija drivers de terceiros para "
+"funcionar corretamente pode não ser utilizável."
+
+#. Type: note
+#. Description
+#: ../shim-signed-common.templates:5001
+msgid "Your system has UEFI Secure Boot enabled"
+msgstr "Seu sistema tem o UEFI Secure Boot ativado"
+
+#. Type: note
+#. Description
+#: ../shim-signed-common.templates:5001
+msgid "UEFI Secure Boot is not compatible with the use of third-party drivers."
+msgstr "O UEFI Secure Boot não é compatível com o uso de drivers de terceiros."
+
+#. Type: note
+#. Description
+#: ../shim-signed-common.templates:5001
+msgid ""
+"The system will assist you in toggling UEFI Secure Boot. To ensure that this "
+"change is being made by you as an authorized user, and not by an attacker, "
+"you must choose a password now and then use the same password after reboot "
+"to confirm the change."
+msgstr ""
+"O sistema irá ajudá-lo a alterar o UEFI Secure Boot. Para garantir que essa "
+"alteração seja feita por você como um usuário autorizado, e não por um "
+"invasor, você deve escolher uma senha agora e usar a mesma senha após a "
+"reinicialização para confirmar a alteração."
+
+#. Type: note
+#. Description
+#: ../shim-signed-common.templates:5001
+msgid ""
+"If you choose to proceed but do not confirm the password upon reboot, the "
+"Secure Boot configuration will not be changed, and the machine will continue "
+"booting as before."
+msgstr ""
+"Se você optar por continuar, mas não confirmar a senha na reinicialização, a "
+"configuração do Secure Boot não será alterada e a máquina continuará "
+"inicializando como antes."
+
+#. Type: password
+#. Description
+#: ../shim-signed-common.templates:6001
+msgid "UEFI Secure Boot password:"
+msgstr "Senha do UEFI Secure Boot:"
+
+#. Type: password
+#. Description
+#: ../shim-signed-common.templates:6001
+msgid "Please enter a password for configuring UEFI Secure Boot."
+msgstr "Insira uma senha para configurar o UEFI Secure Boot."
+
+#. Type: password
+#. Description
+#: ../shim-signed-common.templates:6001
+msgid ""
+"This password will be used after a reboot to confirm authorization for a "
+"change to Secure Boot state."
+msgstr ""
+"Essa senha será usada após uma reinicialização para confirmar a autorização "
+"para uma alteração no estado do Secure Boot."
+
+#. Type: password
+#. Description
+#: ../shim-signed-common.templates:7001
+msgid "Re-enter password to verify:"
+msgstr "Digite novamente a senha para verificar:"
+
+#. Type: password
+#. Description
+#: ../shim-signed-common.templates:7001
+msgid ""
+"Please enter the same password again to verify that you have typed it "
+"correctly."
+msgstr ""
+"Digite a mesma senha novamente para verificar se você a digitou corretamente."
+
+#. Type: error
+#. Description
+#: ../shim-signed-common.templates:8001
+msgid "Password input error"
+msgstr "Erro de entrada de senha"
+
+#. Type: error
+#. Description
+#: ../shim-signed-common.templates:8001
+msgid "The two passwords you entered were not the same. Please try again."
+msgstr ""
+"As duas senhas que você digitou não eram as mesmas. Por favor, tente "
+"novamente."
