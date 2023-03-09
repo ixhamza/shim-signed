@@ -17,8 +17,9 @@ shim-signed (1.39) unstable; urgency=medium
   * postinst/postrm: make config_item() more robust
   * Add pt_BR translation, thanks to Paulo Henrique de Lima
     Santana. Closes: #1026415
+  * Tweak dependencies
 
- -- Steve McIntyre <93sam@debian.org>  Thu, 23 Feb 2023 22:27:32 +0000
+ -- Steve McIntyre <93sam@debian.org>  Thu, 09 Mar 2023 00:58:53 +0000
 
 shim-signed (1.38) unstable; urgency=medium
 
