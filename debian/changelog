@@ -2,8 +2,10 @@ shim-signed (1.40) unstable; urgency=medium
 
   * Stop recommending secureboot-db, we don't have that package.
     Closes: #1042964, #1041449, #932358
+  * Add Romanian translation for debconf templates, thanks to
+    Remus-Gabriel Chelu. Closes: #1039090
 
- -- Steve McIntyre <93sam@debian.org>  Thu, 09 Mar 2023 00:58:53 +0000
+ -- Steve McIntyre <93sam@debian.org>  Fri, 04 Aug 2023 12:21:47 +0100
 
 shim-signed (1.39) unstable; urgency=medium
 
