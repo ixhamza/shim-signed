@@ -1,3 +1,9 @@
+shim-signed (1.39+pmx1) bookworm; urgency=medium
+
+  * Rebuild for Proxmox
+
+ -- Proxmox Support Team <support@proxmox.com>  Mon, 20 Nov 2023 11:31:06 +0100
+
 shim-signed (1.39) unstable; urgency=medium
 
   * Build against new signed binaries corresponding to 15.7-1
