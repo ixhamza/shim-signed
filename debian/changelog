@@ -1,3 +1,10 @@
+shim-signed (1.40+pmx1) bookworm; urgency=medium
+
+  * Update to shim 15.8
+  * Rebuild for Proxmox
+
+ -- Proxmox Support Team <support@proxmox.com>  Wed, 05 Jun 2024 12:45:26 +0200
+
 shim-signed (1.40) unstable; urgency=medium
 
   * Stop recommending secureboot-db, we don't have that package.
