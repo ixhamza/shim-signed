@@ -1,4 +1,4 @@
-shim-signed (1.41) UNRELEASED; urgency=medium
+shim-signed (1.41) unstable; urgency=medium
 
   * Build against new signed binaries corresponding to 15.8-1
     + Closes: #1071215
