@@ -1,3 +1,12 @@
+shim-signed (1.41) UNRELEASED; urgency=medium
+
+  * Build against new signed binaries corresponding to 15.8-1
+    + Closes: #1071215
+  * NOTE: Stop building packages for i386. The number of functioning
+    i386 Secure Boot machines is approximately zero at this point.
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 26 Jun 2024 21:04:27 +0100
+
 shim-signed (1.40) unstable; urgency=medium
 
   * Stop recommending secureboot-db, we don't have that package.
