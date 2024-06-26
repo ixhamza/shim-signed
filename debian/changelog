@@ -4,6 +4,9 @@ shim-signed (1.41) UNRELEASED; urgency=medium
     + Closes: #1071215
   * NOTE: Stop building packages for i386. The number of functioning
     i386 Secure Boot machines is approximately zero at this point.
+  * Tweak packaging:
+    + Switch from debian/compat to build-dep on debhelper-compat
+      (= 13)
 
  -- Steve McIntyre <93sam@debian.org>  Wed, 26 Jun 2024 21:04:27 +0100
 
