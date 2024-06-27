@@ -20,9 +20,9 @@ Multi-Arch: same
 Depends: ${misc:Depends},
  shim-signed-common (>= ${source:Version}),
  grub-efi-amd64-bin [amd64],
- shim-helpers-amd64-signed (>= 1+15.4+2) [amd64],
+ shim-helpers-amd64-signed (>= ${helpers:Version}) [amd64],
  grub-efi-arm64-bin [arm64],
- shim-helpers-arm64-signed (>= 1+15.4+2) [arm64],
+ shim-helpers-arm64-signed (>= ${helpers:Version}) [arm64],
  grub2-common (>= 2.06-6)
 Built-Using: shim (= ${shim:Version})
 Description: Secure Boot chain-loading bootloader (Microsoft-signed binary)

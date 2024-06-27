@@ -1,3 +1,10 @@
+shim-signed (1.42) unstable; urgency=medium
+
+  * Tweak versioning in runtime dependencies, using substvars
+    to make things more automatic in future.
+
+ -- Steve McIntyre <93sam@debian.org>  Fri, 28 Jun 2024 00:40:31 +0100
+
 shim-signed (1.41) unstable; urgency=medium
 
   * Build against new signed binaries corresponding to 15.8-1
