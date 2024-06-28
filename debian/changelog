@@ -1,3 +1,9 @@
+shim-signed (1.42+pmx1) proxmox-rust; urgency=medium
+
+  * sync version and packaging with Debian unstable, shim unchanged
+
+ -- Proxmox Support Team <support@proxmox.com>  Fri, 28 Jun 2024 09:56:46 +0200
+
 shim-signed (1.42) unstable; urgency=medium
 
   * Tweak versioning in runtime dependencies, using substvars
