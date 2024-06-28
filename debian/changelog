@@ -1,8 +1,27 @@
+shim-signed (1.42) unstable; urgency=medium
+
+  * Tweak versioning in runtime dependencies, using substvars
+    to make things more automatic in future.
+
+ -- Steve McIntyre <93sam@debian.org>  Fri, 28 Jun 2024 00:40:31 +0100
+
 shim-signed (1.41+pmx1) bookworm; urgency=medium
 
   * no-change rebuild to ensure our version stays higher than Debian Bookworm's
 
  -- Proxmox Support Team <support@proxmox.com>  Thu, 27 Jun 2024 09:21:34 +0200
+
+shim-signed (1.41) unstable; urgency=medium
+
+  * Build against new signed binaries corresponding to 15.8-1
+    + Closes: #1071215
+  * NOTE: Stop building packages for i386. The number of functioning
+    i386 Secure Boot machines is approximately zero at this point.
+  * Tweak packaging:
+    + Switch from debian/compat to build-dep on debhelper-compat
+      (= 13)
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 26 Jun 2024 21:04:27 +0100
 
 shim-signed (1.40+pmx1) bookworm; urgency=medium
 
