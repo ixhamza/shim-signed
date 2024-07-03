@@ -1,3 +1,11 @@
+shim-signed (1.44) unstable; urgency=medium
+
+  [ Fabian Grünbichler ]
+  * d/rules: import architecture.mk earlier. Closes: #1074744
+  * fix shim-helpers substvar handling
+
+ -- Steve McIntyre <93sam@debian.org>  Wed, 03 Jul 2024 01:08:50 +0100
+
 shim-signed (1.43) unstable; urgency=medium
 
   * Fix broken usage of dpkg-query
