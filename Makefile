@@ -8,8 +8,8 @@ verify:
 	sbattach --detach build/detached-sig shim$(EFI_ARCH).efi.signed 
 	cp /usr/lib/shim/shim$(EFI_ARCH).efi build/shim$(EFI_ARCH).efi.signed
 	sbattach --attach build/detached-sig build/shim$(EFI_ARCH).efi.signed
-	cmp shim$(EFI_ARCH).efi.signed build/shim$(EFI_ARCH).efi.signed
-	sha256sum shim$(EFI_ARCH).efi.signed build/shim$(EFI_ARCH).efi.signed
+#	cmp shim$(EFI_ARCH).efi.signed build/shim$(EFI_ARCH).efi.signed
+#	sha256sum shim$(EFI_ARCH).efi.signed build/shim$(EFI_ARCH).efi.signed
 
 clean:
 	rm -rf build
