@@ -1,9 +1,3 @@
-shim-signed (1.44+pmx1) bookworm; urgency=medium
-
-  * sync version and packaging with Debian unstable, shim unchanged
-
- -- Proxmox Support Team <support@proxmox.com>  Wed, 03 Jul 2024 12:13:27 +0200
-
 shim-signed (1.44) unstable; urgency=medium
 
   [ Fabian Grünbichler ]
